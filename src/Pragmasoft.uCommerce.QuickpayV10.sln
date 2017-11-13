@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{E4FFE780-D10A-47A8-8471-B84D80FB5DBE}"
+	ProjectSection(SolutionItems) = preProject
+		..\tools\Deploy\Deploy.to.uCommerce.ps1 = ..\tools\Deploy\Deploy.to.uCommerce.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{4CF9F5BF-9DD4-4C03-AA40-1BDC7FF51FD5}"
+	ProjectSection(SolutionItems) = preProject
+		..\tools\NuGet\App.Manifest.nuspec = ..\tools\NuGet\App.Manifest.nuspec
+		..\tools\Deploy\Generate.App.Package.ps1 = ..\tools\Deploy\Generate.App.Package.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pragmasoft.QuickpayV10.Extensions", "Pragmasoft.QuickpayV10.Extensions\Pragmasoft.QuickpayV10.Extensions.csproj", "{FE1A22E3-21A3-4653-A9D8-7DF019D01433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pragmasoft.QuickpayV10.Web", "Pragmasoft.QuickpayV10.Web\Pragmasoft.QuickpayV10.Web.csproj", "{1C4E8337-AAB5-4BAD-AD24-5F0F802856A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pragmasoft.QuickpayV10.Documentation", "Pragmasoft.QuickpayV10.Documentation\Pragmasoft.QuickpayV10.Documentation.csproj", "{4170D825-5558-4132-982C-ABC6BA785AC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE1A22E3-21A3-4653-A9D8-7DF019D01433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE1A22E3-21A3-4653-A9D8-7DF019D01433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE1A22E3-21A3-4653-A9D8-7DF019D01433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1A22E3-21A3-4653-A9D8-7DF019D01433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4E8337-AAB5-4BAD-AD24-5F0F802856A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4E8337-AAB5-4BAD-AD24-5F0F802856A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4E8337-AAB5-4BAD-AD24-5F0F802856A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4E8337-AAB5-4BAD-AD24-5F0F802856A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4170D825-5558-4132-982C-ABC6BA785AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4170D825-5558-4132-982C-ABC6BA785AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4170D825-5558-4132-982C-ABC6BA785AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4170D825-5558-4132-982C-ABC6BA785AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

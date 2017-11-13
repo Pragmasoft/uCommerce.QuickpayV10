@@ -1,0 +1,144 @@
+div.versionSelectorWrapper {
+	display: table;
+	padding:5px;
+	float:right;
+	vertical-align: middle;
+}
+
+.aside {
+	float:left;
+	width:209px;
+	margin:0 40px 0 0;
+}
+.aside .side-box { margin:0 auto 22px;}
+.aside-box {
+	width:209px;
+	padding:0;
+	margin:0 0 22px;
+}
+.aside-box .holder {
+	padding:0 0 8px;
+	width:100%;
+}
+.aside-box .frame {
+	padding:0 17px;
+	width:175px;
+}
+.aside-box .item {
+	padding:6px 0 10px;
+	font-size:11px;
+	line-height:16px;
+	color:#666;
+}
+.aside-box .item:first-child { padding-top:10px;}
+.aside-box header,
+.aside-box footer {
+	width:100%;
+	margin:0 0 5px;
+}
+.aside-box footer { margin:0;}
+.aside-box header:after,
+.aside-box footer:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+.aside-box h3 {
+	font-size:15px;
+	line-height:18px;
+	margin:0;
+	font-weight:bold;
+}
+.aside-box time { margin:0 0 3px;}
+.aside-box a { text-decoration:none;}
+.aside-box p { margin:0 0 5px;}
+.aside-box .author {
+	font-size:13px;
+	line-height:16px;
+	text-shadow:1px 1px #ccc;
+}
+.aside-box img { vertical-align:top;}
+.aside-box footer .author { float:left;}
+.aside-box footer .rating { float:right;}
+.aside-box .mini-btn { float:right;}
+
+.accordion {
+	width:202px;
+	margin:3px 0 0 -16px;
+	padding:0;
+	list-style:none;
+	line-height:18px;
+}
+.accordion li {
+	width:100%;
+	vertical-align:top;
+}
+.accordion a {
+	color:#666;
+}
+.accordion a.selected {
+	text-decoration:none;
+	color:#006991;
+}
+.accordion > li > a {
+	color: #808285;
+	display:block;
+	height:1%;
+	padding:3px 12px 0 1px;
+	margin:0 0 3px;
+	position:relative;
+	text-shadow:1px 1px #fff;
+	padding-left: 15px;
+}
+.accordion > li > a > strong {
+	padding:4px 15px 4px 3px;
+	display:inline;
+}
+.accordion > li > a:hover { color:#666;}
+.accordion > li > a.active:hover {
+	background-color:#f4f4f4;
+}
+.accordion > li > a.active > strong { background-position:100% -100px;}
+.accordion ul {
+	padding-left:10px;
+	margin:0;
+	list-style:none;
+	position:relative;
+	zoom:1;
+}
+.accordion ul a,
+.accordion li.active ul a {
+	display:inline-block;
+	vertical-align:top;
+	color:#666;
+	padding-left: 18px;
+}
+
+.accordion li ul a > span {
+	padding-left: 0;
+}
+
+.accordion ul li a.selected > strong,
+.accordion ul li a.selected {
+	color:#006991;
+	font-weight:bold;
+}
+.accordion ul a:hover {
+	color:#666;
+}
+.accordion ul a strong { 
+	font-weight:normal;
+	padding-left: 3px;
+}
+
+.accordion li a span {
+	width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(../images/icons/16x16/treemenu_collapsed.png);
+    line-height: normal;
+}
+
+.accordion li a.active span, .accordion li a.selected span  {
+	background-image: url(../images/icons/16x16/treemenu_expanded.png);
+}
