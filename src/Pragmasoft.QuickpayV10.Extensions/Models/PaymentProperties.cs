@@ -1,7 +1,6 @@
 ﻿using UCommerce.EntitiesV2;
 using UCommerce.Extensions;
 using UCommerce.Transactions.Payments;
-using UCommerce.Transactions.Payments.Common;
 
 namespace Pragmasoft.QuickpayV10.Extensions.Models
 {
@@ -53,8 +52,19 @@ namespace Pragmasoft.QuickpayV10.Extensions.Models
 
         private void PopulatePaymentProperties(Payment payment)
         {
-            Amount = payment.Amount.ToCents().ToString();
+            Amount = ToCents(payment.Amount).ToString();
             OrderNumber = payment.ReferenceId;
         }
+        
+        // TAKEN FROM UCOMMERCE
+		private int ToCents(Decimal amount)
+	    {
+		    return Convert.ToInt32(Decimal.Round(amount, 2) * new Decimal(100));
+	    }
+
+		private int ToCents(Decimal? amount)
+	    {
+		    return ToCents(amount.GetValueOrDefault(new Decimal(0)));
+	    }
     }
 }
