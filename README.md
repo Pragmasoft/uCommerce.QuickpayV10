@@ -24,6 +24,9 @@ Quickpay for uCommerce supports the following features:
 
 
 ## Changelog
+v.1.3.0.0
+* Bugfix: Removed dependency to ucommerce, moved methods into class so it now works in latest version of ucommerce (7.10.0.17325). Thanks @danieland
+
 v.1.2.0.0
 * Bugfix: Ensuring that checkout pipeline is called
       
