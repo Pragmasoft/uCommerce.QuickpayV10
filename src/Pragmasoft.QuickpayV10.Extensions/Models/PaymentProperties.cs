@@ -1,7 +1,7 @@
-﻿using UCommerce.EntitiesV2;
+﻿using Pragmasoft.QuickpayV10.Extensions.Extensions;
+using UCommerce.EntitiesV2;
 using UCommerce.Extensions;
 using UCommerce.Transactions.Payments;
-using UCommerce.Transactions.Payments.Common;
 
 namespace Pragmasoft.QuickpayV10.Extensions.Models
 {

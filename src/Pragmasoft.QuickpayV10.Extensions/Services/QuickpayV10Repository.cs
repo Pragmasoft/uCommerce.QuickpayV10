@@ -9,13 +9,13 @@ using System.Text;
 using System.Threading;
 using System.Web;
 using Newtonsoft.Json;
+using Pragmasoft.QuickpayV10.Extensions.Extensions;
 using Pragmasoft.QuickpayV10.Extensions.Models;
 using Pragmasoft.QuickpayV10.Extensions.Models.Callback;
 using Pragmasoft.QuickpayV10.Extensions.Services.Interfaces;
 using UCommerce.Infrastructure;
 using UCommerce.Transactions;
 using UCommerce.Transactions.Payments;
-using UCommerce.Transactions.Payments.Common;
 using UCommerce.Web;
 
 namespace Pragmasoft.QuickpayV10.Extensions.Services
