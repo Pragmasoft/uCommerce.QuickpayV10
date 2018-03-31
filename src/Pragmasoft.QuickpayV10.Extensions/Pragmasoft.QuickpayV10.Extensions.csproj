@@ -90,6 +90,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\DecimalExtensions.cs" />
     <Compile Include="Models\Callback\Data.cs" />
     <Compile Include="Models\Callback\Metadata.cs" />
     <Compile Include="Models\Callback\Operation.cs" />
