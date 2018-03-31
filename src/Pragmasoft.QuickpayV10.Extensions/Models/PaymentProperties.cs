@@ -54,7 +54,7 @@ namespace Pragmasoft.QuickpayV10.Extensions.Models
         private void PopulatePaymentProperties(Payment payment)
         {
             Amount = payment.Amount.ToCents().ToString();
-            OrderNumber = payment.ReferenceId;
+            OrderNumber = payment.PurchaseOrder.OrderNumber;
         }
     }
 }
