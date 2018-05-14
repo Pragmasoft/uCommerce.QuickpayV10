@@ -2,11 +2,15 @@
 <package>
   <metadata>
     <id>Pragmasoft.QuickpayV10</id>
-    <version>1.3.0.0</version>
+    <version>1.4.0.0</version>
     <authors>Pragmasoft</authors>
     <owners>Pragmasoft</owners>
     <iconUrl>http://appcenter.pragmasoft.dk/ucommerceappicons/QuickpayV10_500x500.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>
+      Quickpay for uCommerce aids developers in implementing a QuickPayV10 payment gateway in a uCommerce shop.
+      Quickpay for uCommerce hides away any tedious and repetitive programing task and simplifies the setup.
+    </summary>
     <description>
 Quickpay for uCommerce aids developers in implementing a QuickPayV10 payment gateway in a uCommerce shop. 
 Quickpay for uCommerce hides away any tedious and repetitive programing task and simplifies the setup. 
