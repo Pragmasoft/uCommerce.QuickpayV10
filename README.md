@@ -24,6 +24,10 @@ Quickpay for uCommerce supports the following features:
 
 
 ## Changelog
+v.1.4.0.0
+* Update: Order number is now using purchaseOrder.OrderNumber instead of payment.ReferenceId. Thanks 
+[@bjarnef](https://github.com/bjarnef)
+
 v.1.3.0.0
 * Bugfix: Removed dependency to ucommerce, moved methods into class so it now works in latest version of ucommerce (7.10.0.17325). Thanks 
 [@danieland](https://github.com/danieland)
