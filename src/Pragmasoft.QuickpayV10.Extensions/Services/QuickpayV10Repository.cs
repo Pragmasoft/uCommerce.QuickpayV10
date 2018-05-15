@@ -23,8 +23,7 @@ namespace Pragmasoft.QuickpayV10.Extensions.Services
     using UCommerce.EntitiesV2;
 
     public class QuickpayV10Repository
-    {
-        
+    {   
         private const string ApiEndpointUrl = "https://api.quickpay.net/";
         private readonly ICallbackUrl _callbackUrl;
         private readonly IQuickPayV10Logger _logger;
@@ -104,9 +103,9 @@ namespace Pragmasoft.QuickpayV10.Extensions.Services
             return GetResponseDto(resource, payment, "POST");
         }
 
-        private ResponseDto GetResponseDto(string resoruceUrl, Payment payment, string method)
+        private ResponseDto GetResponseDto(string resourceUrl, Payment payment, string method)
         {
-            var response = GetResponse(GetPaymentProperties(payment), resoruceUrl, method);
+            var response = GetResponse(GetPaymentProperties(payment), resourceUrl, method);
             var quickpayDto = GetPayment(payment, response);
             return new ResponseDto { ResponseAccepted = quickpayDto.Accepted, StatusMessage = quickpayDto.StatusMessage };
         }
